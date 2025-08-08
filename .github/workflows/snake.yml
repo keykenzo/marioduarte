@@ -1,29 +1,28 @@
-name: Generate Snake SVG
+name: Generate Snake Animation
 
 on:
-  push:
-    branches:
-      - main
+  schedule:
+    - cron: "0 0 * * *" # Executa todo dia à meia-noite
   workflow_dispatch:
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
+    name: Generate Snake SVG
 
     steps:
-    - name: Checkout repo
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    - name: Run snake script to generate SVG
-      run: |
-        python generate_snake.py
+      - name: Generate Snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: KeyKenzo
+          outputs: |
+            ./output/snake.svg
 
-    - name: Commit and push SVG
-      run: |
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git add output/output/snake.svg
-        git diff --cached --quiet || git commit -m "Update snake.svg"
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Push to GitHub
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "Generate snake.svg"
+          add: "output/snake.svg"
