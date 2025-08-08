@@ -30,7 +30,7 @@
 ###
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/KeyKenzo/KeyKenzo/output/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/KeyKenzo/KeyKenzo/main/output/snake.svg" />
 </p>
 
 
