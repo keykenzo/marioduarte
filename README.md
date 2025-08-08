@@ -42,15 +42,12 @@
 <img src="https://raw.githubusercontent.com/keykenzo/marioduarte/4f696977d0924d43adc093d24f044a51a0ff1a91/output/snake.svg" />
 </p>
 
-
-
 ###
-
-
 
 <h2 align="left">Habilidades de Programação</h2>
 
 ###
+
 
 <div align="left">
 
@@ -83,5 +80,19 @@
 
 
 </div>
+
+
+<h2 align="left">Projetos</h2>
+
+###
+
+<p align="left">
+  💙 <a href="https://github.com/keykenzo/meu-projeto-react" target="_blank">TypeScript</a><br>
+  ⚛️ <a href="https://github.com/keykenzo/meu-projeto-react" target="_blank">React</a><br>
+  🐍 <a href="https://github.com/keykenzo/aquisicaodados/blob/main/aquisicaoDados" target="_blank">Python</a><br>
+  💻 <a href="https://github.com/keykenzo/aquisicaodados/blob/main/AlgoritmoemCdoArduino" target="_blank">C/C++</a><br>
+</p>
+
+###
 
 ###
