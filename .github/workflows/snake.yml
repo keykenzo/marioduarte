@@ -16,16 +16,14 @@ jobs:
 
     - name: Run snake script to generate SVG
       run: |
-        # Aqui você roda o seu script que gera o snake.svg
-        # Exemplo:
         python generate_snake.py
 
     - name: Commit and push SVG
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add output/snake.svg
-        git commit -m "Update snake.svg"
+        git add output/output/snake.svg
+        git diff --cached --quiet || git commit -m "Update snake.svg"
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
