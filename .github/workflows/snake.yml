@@ -21,7 +21,7 @@ jobs:
           outputs: |
             ./output/snake.svg
 
-      - name: Push to GitHub
+      - name: Commit and push
         uses: EndBug/add-and-commit@v9
         with:
           message: "Generate snake.svg"
