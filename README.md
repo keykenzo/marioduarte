@@ -30,7 +30,7 @@
 ###
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/KeyKenzo/KeyKenzo/main/output/snake.svg" />
+<img src="https://raw.githubusercontent.com/keykenzo/marioduarte/4f696977d0924d43adc093d24f044a51a0ff1a91/output/snake.svg" />
 </p>
 
 
