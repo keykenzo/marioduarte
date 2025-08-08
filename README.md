@@ -8,11 +8,19 @@
 
 <h2 align="left">Sobre mim</h2>
 
+<p align="left">
+  🎓 Formado em Engenharia Mecatrônica pelo IFSC<br>
+  📘 Cursando MBA em Gestão de Projetos na USP/ESALQ<br>
+  💼 <a href="https://marinho.surge.sh/" target="_blank">Portfólio com projetos reais e industriais</a><br>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="20" /> <a href="https://www.linkedin.com/in/mario-silveira-b65608342/" target="_blank"> Meu Linkedln </a>
+</p>
+
 ###
 
 ###
 
 <p align="left">
+<h3 align="left"> Curiosidades 🤓 </h3>
   👨‍💻 Programo por paixão e por teimosia<br>
   🧠 Aprendo com erros, bugs e Stack Overflow<br>
   🚀 Quero transformar ideias em soluções reais<br>
@@ -23,6 +31,7 @@
 ###
 
 <div align="center">
+  <h3 align="left"> Estatísticas 👾 </h3>
   <img src="https://github-readme-stats.vercel.app/api?username=KeyKenzo&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=KeyKenzo&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
 </div>
